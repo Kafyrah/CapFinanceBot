@@ -53,3 +53,6 @@ def getPrice(update: Update, context: CallbackContext):
 dispatcher.add_handler(CommandHandler("cap", getPrice))
 
 updater.start_polling()
+token = 1362045964:AAFXztbe-C8Z_K92ibtD7BwJ19FY7kVN-5w
+  updater = Updater(token = "1362045964:AAFXztbe-C8Z_K92ibtD7BwJ19FY7kVN-5w",
+                  use_context=True)
